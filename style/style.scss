@@ -563,7 +563,7 @@ $white: #eeeeee;
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
-   gap: 12px;
+   gap: 24px;
    max-width: 395px;
    width: 100%;
  }
@@ -710,6 +710,7 @@ $white: #eeeeee;
         font-size: 14px;
         text-align: center;
         color: #fff;
+        margin-top: -12px;
       }
 
 
