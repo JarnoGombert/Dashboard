@@ -433,3 +433,6 @@ if(schermwidth <= 768){
 } else if(schermwidth > 768){
   buien.style.display = block;
 }
+
+
+console.log(harold(hours) + ":" + harold(minutes) + ":" + harold(seconds));
