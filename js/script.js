@@ -2,7 +2,7 @@
  * Sitework Dashboard JS
  */
 
- console.log('[Sitework Dashboard Initialised]');
+ console.log('[Jarno\'s Dashboard Initialised]');
 
  /**
   * Dashboard.js
@@ -422,3 +422,8 @@ $(document).ready(function () {
     });
   });
 });
+
+
+// screen width
+let schermwidth = screen.width;
+console.log(schermwidth);
