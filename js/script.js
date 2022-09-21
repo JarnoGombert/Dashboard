@@ -436,4 +436,4 @@ if(schermwidth <= 768){
 }
 
 
-console.log(harold(hours) + ":" + harold(minutes) + ":" + harold(seconds));
+console.log(hours + ":" + minutes + ":" + seconds);
