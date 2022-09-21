@@ -657,20 +657,19 @@ $white: #eeeeee;
     width: 100%;
     height: 80px;
  }
+ .spotify-tile iframe:hover{
+      width: 100%;
+      height: 380px;
+  }
 
  .spotify-tile:hover {
     background-color: #B58240;
     transform: translateY(-4px);
     cursor: none !important;
     border: 2px solid #B58240;
-    height: 474px;
-
-    
+    height: 474px; 
   }
-  &.spotify-tile:hover iframe:hover{
-      width: 100%;
-      height: 380px;
-    }
+  
 
  .tile iframe{
     width: auto;
