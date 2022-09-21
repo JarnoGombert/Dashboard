@@ -305,7 +305,7 @@ $white: #eeeeee;
    padding-bottom: 20px;
  }
  
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
    .dashboard {
       width: auto;
       height: 100%;
