@@ -434,6 +434,3 @@ if(schermwidth <= 768){
 } else if(schermwidth > 768){
   buien.style.display = "block";
 }
-
-
-console.log(hours + ":" + minutes + ":" + seconds);
