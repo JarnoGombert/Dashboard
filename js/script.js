@@ -431,7 +431,7 @@ console.log(schermwidth);
 if(schermwidth <= 768){
   buien.style.display = none;
 } else if(schermwidth > 768){
-  buien.style.display = block;
+  buien.style.display = flex;
 }
 
 
