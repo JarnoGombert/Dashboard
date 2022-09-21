@@ -229,24 +229,63 @@ a {
 }
 
 @media (max-width: 768px) {
+  .tile--clock-widget {
+    padding: 32px 0px !important;
+  }
+  .toolbar {
+    position: fixed;
+    top: 40px;
+    right: auto;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95px;
+    background-color: #606060;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    border: 2px solid #B58240;
+    height: auto;
+    z-index: 99;
+    transition: all 200ms ease-in-out;
+    box-shadow: 5px 10px #b58240;
+  }
+  #buienrader-schema iframe {
+    width: 226px !important;
+    height: 406px !important;
+  }
   .dashboard {
     width: auto;
     height: 100%;
     min-height: 100vh;
-    padding: 20px 43px 20px 250px;
+    padding: 20px 43px 20px 139px;
   }
   .shortcut-grid {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: flex-start;
-    width: 87%;
-    height: auto;
-    gap: 30px;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 30px !important;
+    flex-wrap: wrap !important;
   }
-  .cursor-dot, .cursor-dot-outline {
-    display: none;
+  .cursor-dot, .cursor-dot-outline, #spotify-account, #buienalarm-tile {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .dashboard {
+    padding-left: 230px;
+    width: auto;
+    height: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 /**
@@ -482,6 +521,7 @@ a {
   padding-bottom: 20px;
   padding-left: 20px;
   height: 220px;
+  min-width: 262px !important;
   border-radius: 8px;
   border: 2px solid #B58240;
   transition: all 200ms ease-in-out;
@@ -490,6 +530,7 @@ a {
 .spotify-tile iframe {
   width: 100%;
   height: 80px;
+  transition: all 200ms ease-in-out;
 }
 
 .spotify-tile iframe:hover {

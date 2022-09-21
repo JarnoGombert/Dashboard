@@ -425,12 +425,6 @@ $(document).ready(function () {
 
 
 // screen width
-const buien = document.getElementById('buienalarm-tile');
 let schermwidth = screen.width;
 
 console.log(schermwidth);
-if(schermwidth <= 768){
-  buien.style.display = "none";
-} else if(schermwidth > 768){
-  buien.style.display = "block";
-}
