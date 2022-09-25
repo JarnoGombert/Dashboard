@@ -294,12 +294,12 @@ a {
 .dashboard-version {
   display: flex;
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   right: 20px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #546488;
+  color: #fff;
   letter-spacing: 0.5px;
   font-size: 14px;
   filter: opacity(50%);
