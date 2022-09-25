@@ -121,7 +121,18 @@ $white: #eeeeee;
    -webkit-transition: all 200ms ease-in-out;
    transition: all 200ms ease-in-out;
    box-shadow: 5px 10px #B58240;
- }
+   overflow-y: scroll; 
+  }
+
+ .toolbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.toolbar {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
  
 //  @media (max-width: 575px) {
 //    .toolbar {
