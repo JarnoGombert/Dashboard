@@ -264,6 +264,15 @@ a {
     z-index: 99;
     transition: all 200ms ease-in-out;
     box-shadow: 5px 10px #b58240;
+    overflow-y: scroll;
+  }
+  .toolbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .toolbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
   #buienrader-schema iframe {
     width: 226px !important;
