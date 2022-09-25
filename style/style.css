@@ -861,6 +861,11 @@ a {
   width: 150px;
 }
 
+@media screen and (max-width: 1000px) {
+  .icon-whatsapp {
+    width: 85px;
+  }
+}
 .icon-spline {
   max-width: 46px;
 }
