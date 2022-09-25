@@ -652,11 +652,13 @@ a {
 
 #skills h1 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 27px;
 }
 #skills p {
   font-size: 20px;
   color: #fff;
+  padding-top: 16px;
+  line-height: 130%;
 }
 #skills .section {
   text-align: center;
